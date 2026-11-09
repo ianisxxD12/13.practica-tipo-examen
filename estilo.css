@@ -1,0 +1,61 @@
+body {
+    background-image: url("bricolaje.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Título principal */
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    color: #D2691E;
+    text-align: center;
+}
+
+/* Segundo título */
+h2 {
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+    color: #00008B;
+}
+
+/* Títulos H3 */
+h3 {
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    color: #008B8B;
+}
+
+/* Párrafos y listas */
+p, li {
+    font-family: Arial, sans-serif;
+}
+
+/* Enlaces */
+a:visited {
+    color: grey;
+}
+
+a:hover {
+    font-weight: bold;
+    color: red;
+}
+
+a:active {
+    color: green;
+}
+
+/* Tabla */
+table {
+    width: 33%;
+    margin: auto;
+    border: 1px solid brown;
+    border-collapse: collapse;
+    background-color: AntiqueWhite;
+}
+
+td, th {
+    border: 1px solid brown;
+}
